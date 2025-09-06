@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+header{
+    background-image: url(rustic-bread-bakery-background_776894-101974.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    font-weight: 500;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header .nav{
+    display: flex;
+    align-items: center;
+    margin-right: 87px;
+}
+
+header .nav a{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    margin: 13px;
+    font-size: 19px;
+    transition: all 0.5s;
+}
+
+header .nav a:hover{
+    border-top: solid 2px #8e7754;
+    color: #8e7754;
+}
+
+header .Logo img{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    margin: 21px 0 20px 68px;
+}
+
+.main_header .content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+    color: aliceblue;
+}
+
+.main_header div{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.main_header .content p{
+    line-height: 40px;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.main_header div .last{
+    margin-bottom: 100px;
+}
+
+.main_header div h1{
+    padding: 10px 0 20px 0;
+    font-size: 72px;
+    font-weight: 100;
+}
+
+.main_header ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 190px;
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main_header ul li .Learn_More{
+    color: white;
+    background: #8e7754;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.main_header ul li .Contact_us{
+    color: white;
+    margin-left: 20px;
+    padding: 12px 18px;
+    border-radius: 5px;
+    border: solid 2px #ffffff;
+    transition: all 0.5s;
+}
+
+.main_header ul li .Learn_More:hover{
+        background: #ffffff;
+        color: black; 
+        border-radius: 5px;
+}
+
+.main_header ul li .Contact_us:hover{
+    background: #ffffff;
+    color: black; 
+    border-radius: 5px; 
+}
+
+main .About_us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 95px;
+    margin-left: 75px;
+    margin-bottom: 70px;
+}
+
+
+main .About_us ul{
+
+    margin-top: 65px;
+    margin-right: 50px;
+    margin-left: 60px;
+    color: #686868;
+}
+
+main .About_us ul li img{
+    width: 38px;
+    border: solid 1px #b6b5b5;
+    border-radius: 100%;
+    margin-left: 13px;
+}
+
+main .About_us ul h2{   
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-left: 13px;
+    color: #202020;
+}
+
+main .About_us ul p{
+    margin: 15px;
+    font-size: 17px;
+}
+
+main .About_us li .content_1{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+main .About_us li .content_2{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+main .About_us li .content_3{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+main .About_us li .content_4{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+main .Our_Location{
+    display: flex;
+    justify-content: space-evenly;
+    background: #f8f8f8;
+    color: #686868;
+}
+
+main .Our_Location .first h1{
+    margin: 120px 0 50px 70px;
+    font-weight: 100;
+}
+
+main .Our_Location .first ._1 p{
+    margin: 0 0 10px 70px;
+}
+main .Our_Location .first ._2 p{
+    margin: 0 0 10px 70px;
+}
+
+main .Our_Location .first ._2 #_2{
+    margin-top: 40px;
+}
+
+main .Our_Location .img{
+    margin: 70px 50px 70px 70px;
+}
+
+main .Our_Baking{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    justify-items: center;
+    margin: 0 0 60px 0;
+    padding: 0 0 0 20px;
+}
+
+main .Our_Baking .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    margin: 90px 0 40px 0;
+    color: #252525;
+}
+    
+main .Our_Baking .content h1{
+    font-weight: 100;
+}
+
+main .Our_Baking .content p{
+    margin: 25px 0 0 0;
+}
+
+main .Our_Baking .cards ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+main .Our_Baking .cards ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+main .Our_Baking .cards ul img{
+    max-width: 350px;
+    margin: 25px 25px 40px 25px;
+}
+
+main .Our_Baking .cards ul h2{
+    margin: 0 0 20px 0;
+    color: #252525;
+    font-weight: 100;
+}
+
+main .Our_Baking .cards ul p{
+    line-height: 26px;
+    color: #686868;
+}
+
+main .Contact_Information{
+    background: #f8f8f8;
+    padding: 100px 0 100px 80px;
+    position: relative;
+}
+
+main .Contact_Information img{
+    width: 35px;
+    border-radius: 100%;
+    margin-right: 12px;
+    background-color: #8e7754;
+}
+
+main .Contact_Information h1{
+    margin-bottom: 35px;
+    font-weight: 100;
+    color: #202020;
+}
+
+main .Contact_Information .content_up p{
+    line-height: 27px;
+    color: #686868;
+}
+
+main .Contact_Information .content_Down .our{
+    margin: 40px 0 25px 0;
+    padding-bottom: 10px;
+    color: #686868;
+}
+
+main .Contact_Information .content_Down ul li{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #686868;
+}
+
+main .Contact_Information .map{
+    position: absolute  ;
+    left: 60%;
+    bottom: 11%;
+}
+
+main .Contact_Information .map a{
+    color: #5c5b5b;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 50px 0;
+    background-color: #353330;
+    color: #706f6f;
+}
+
+footer div{
+    margin-bottom: 30px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+footer ul img{
+    width: 40px;
+    margin-right: 9px;
+    border-radius: 100%;
+    transition: all 0.5s;
+    background-color: #484540;
+}
+
+footer ul .facebook:hover{
+    background-color: #37579c;
+}
+
+footer ul .google:hover{    
+    background-color: #DB4437
+}
+
+footer ul .linkedin:hover{
+    background-color: #0077B5;
+}
+
+footer ul .twitter:hover{
+    background-color: #1DA1F2;
+}
