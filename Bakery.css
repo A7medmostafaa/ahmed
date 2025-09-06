@@ -211,15 +211,6 @@ main .Our_Location .img{
     margin: 70px 50px 70px 70px;
 }
 
-main .Our_Baking{
-    align-items: center;
-    justify-content: space-evenly;
-    align-content: center;
-    justify-items: center;
-    margin: 0 0 60px 0;
-    padding: 0 0 0 20px;
-}
-
 main .Our_Baking .content{
     display: flex;
     flex-direction: column;
@@ -365,4 +356,5 @@ footer ul .twitter:hover{
     background-color: #1DA1F2;
 
 }
+
 
