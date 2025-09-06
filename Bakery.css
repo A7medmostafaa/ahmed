@@ -213,7 +213,6 @@ main .Our_Location .img{
 
 main .Our_Baking{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -366,4 +365,5 @@ footer ul .linkedin:hover{
 
 footer ul .twitter:hover{
     background-color: #1DA1F2;
+
 }
